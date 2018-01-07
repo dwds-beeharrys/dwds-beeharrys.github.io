@@ -221,21 +221,21 @@ firebase.auth().onAuthStateChanged(firebaseUser => {
 
 //firebase ended
 
-$('#productForm').show();
-$('#orderForm').hide();
+$('#productForm').hide();
+$('#orderForm').show();
 $('#userForm').hide();
 $('#categoryForm').hide();
 
 
 //btnViewProfile
-pManager.addEventListener('click', e => {
-  $('#productForm').show();
-  $('#orderForm').hide();
-  $('#userForm').hide();
-  $('#categoryForm').hide();
-
-
-});
+// pManager.addEventListener('click', e => {
+//   $('#productForm').show();
+//   $('#orderForm').hide();
+//   $('#userForm').hide();
+//   $('#categoryForm').hide();
+//
+//
+// });
 
 //btnViewProfile
 // cManager.addEventListener('click', e => {
